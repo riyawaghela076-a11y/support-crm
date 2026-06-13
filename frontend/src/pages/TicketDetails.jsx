@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 
-const API_URL = 'http://localhost:5000/api/tickets';
+const API_URL = 'https://support-crm-3sov.onrender.com';
 
 function TicketDetails() {
   const { ticketId } = useParams();
