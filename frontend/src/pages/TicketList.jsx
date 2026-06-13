@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from 'react';
 import SearchBar from '../components/SearchBar.jsx';
 import TicketCard from '../components/TicketCard.jsx';
 
-const API_URL = 'http://localhost:5000/api/tickets';
+const API_URL = "https://support-crm-3sov.onrender.com/api/tickets";
 
 function TicketList() {
   const [tickets, setTickets] = useState([]);
